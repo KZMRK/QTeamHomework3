@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Таблиці</title>
+</head>
+
+<body>
+<table class="tag_table">
+    <tr>
+        <th rowspan="2">№</th>
+        <th colspan="2">теги</th>
+    </tr>
+    <tr>
+        <th>тег</th>
+        <th>значення</th>
+    </tr>
+    <tr>
+        <td class="row_num">1</td>
+        <td>p</td>
+        <td rowspan="4">для тексту</td>
+    </tr>
+    <tr>
+        <td class="row_num">2</td>
+        <td>a</td>
+    </tr>
+    <tr>
+        <td class="row_num">3</td>
+        <td>b</td>
+    </tr>
+    <tr>
+        <td class="row_num">4</td>
+        <td>i</td>
+    </tr>
+    <tr>
+        <td class="row_num">5</td>
+        <td>table</td>
+        <td>таблиця</td>
+    </tr>
+    <tr>
+        <td class="row_num">6</td>
+        <td>tr</td>
+        <td>рядок таблиці</td>
+    </tr>
+    <tr>
+        <td class="row_num">7</td>
+        <td>td</td>
+        <td rowspan="2">комірка таблиці</td>
+    </tr>
+    <tr>
+        <td class="row_num">8</td>
+        <td>th</td>
+    </tr>
+</table>
+
+<table class="student_table">
+    <tr>
+        <th class="num">№</th>
+        <th class="pib">ПІБ студента</th>
+        <th class="address">Адреса</th>
+        <th class="phone_num">Телефон</th>
+    </tr>
+    <tr>
+        <td class="row_num">1</td>
+        <td>Петров І.В.</td>
+        <td>Адреса1</td>
+        <td>+30506663232</td>
+    </tr>
+    <tr>
+        <td class="row_num">2</td>
+        <td>Сидоров П.А.</td>
+        <td>Адреса 2</td>
+        <td>+30505553232</td>
+    </tr>
+    <tr>
+        <td class="row_num">3</td>
+        <td>Козачук А.Р.</td>
+        <td>Адреса 3</td>
+        <td>+30507773232</td>
+    </tr><tr>
+        <td class="row_num">4</td>
+        <td>Карпатський О.Д.</td>
+        <td>Адреса 4</td>
+        <td>+30501113232</td>
+    </tr>
+    <tr>
+        <td class="total_row" colspan="3"><b>Загальна кількість</b></td>
+        <td class="total_row"><b>4</b></td>
+    </tr>
+</table>
+
+<table class="company">
+    <tr>
+        <th>Company</th>
+        <th>Q1</th>
+        <th>Q2</th>
+        <th>Q3</th>
+    </tr>
+    <tr>
+        <td>Microsoft</td>
+        <td>20.3</td>
+        <td>30.5</td>
+    </tr><tr>
+        <td>Google</td>
+        <td>50.2</td>
+        <td>40.63</td>
+        <td>45.23</td>
+    </tr>
+</table>
+
+<table class="template template1">
+    <tr>
+        <td class="header" colspan="5">Шапка</td>
+    </tr>
+    <tr class="menu_row">
+        <td>Меню</td>
+        <td>Меню</td>
+        <td>Меню</td>
+        <td>Меню</td>
+        <td>Меню</td>
+    </tr>
+    <tr>
+        <td class="news" colspan="2">Новини</td>
+        <td class="content" colspan="3">Контент</td>
+    </tr>
+</table>
+
+<table class="template template2">
+    <tr>
+        <td class="header">Шапка</td>
+        <td class="menu" rowspan="2">Меню</td>
+    </tr>
+    <tr>
+        <td class="content">Контент</td>
+    </tr>
+    <tr>
+        <td class="footer" colspan="2">Низ сайту</td>
+    </tr>
+</table>
+
+<table class="template template3">
+    <tr>
+        <td class="news"  rowspan="3">Новини</td>
+        <td class="header">Шапка</td>
+    </tr>
+    <tr>
+        <td class="menu">Меню</td>
+    </tr>
+    <tr>
+        <td class="content">Контент</td>
+    </tr>
+</table>
+
+</body>
+</html>
